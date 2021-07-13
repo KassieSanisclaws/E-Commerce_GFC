@@ -6,4 +6,4 @@ export default function MessageBox(props) {
           {props.children}
          </div>
     );
-}
+}   

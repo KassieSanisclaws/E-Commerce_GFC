@@ -9,4 +9,4 @@ export default function CheckoutSteps(props) {
             <div className={props.step4 ? 'active' : ''}>Place Order</div>
         </div>
     );
-    }
+    }   

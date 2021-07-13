@@ -9,7 +9,7 @@ export const register = (name, email, password) => async (dispatch) => {
     try {
         const { data } = await Axios.post('/api/users/register', {
            name, 
-           email, 
+           email,         
            password,
         });
         dispatch({ type: USER_REGISTER_SUCCESS, payload: data });

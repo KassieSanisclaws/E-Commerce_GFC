@@ -14,7 +14,7 @@ import { listProducts } from '../actions/productActions';
       useEffect(() => {
          dispatch(listProducts());
       }, [dispatch]);
-        return (
+        return (   
             <div>
               {loading ? (
                  <LoadingBox></LoadingBox>

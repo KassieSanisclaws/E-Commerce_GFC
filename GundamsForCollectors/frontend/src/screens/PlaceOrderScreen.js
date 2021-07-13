@@ -11,7 +11,7 @@ export default function PlaceOrderScreen(props) {
     const cart = useSelector(state => state.cart);
     if(!cart.paymentMethod) {
         props.history.push('/payment');
-    }
+    }  
     const orderCreate = useSelector((state) => state.orderCreate);
     const { loading, success, error, order } = orderCreate;
     const toPrice = (num) => Number(num.toFixed(2)); // 5.123 => "5.12" => 5.12 //

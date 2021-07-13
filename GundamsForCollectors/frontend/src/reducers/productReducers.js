@@ -14,7 +14,7 @@ export const productListReducer = (state = { loading: true, products: [] } , act
             return { loading: false, error: action.payload };
         default:
             return state;
-    }
+    }  
 };
 
 export const productDetailsReducer = (state = { loading: true}, action) => {

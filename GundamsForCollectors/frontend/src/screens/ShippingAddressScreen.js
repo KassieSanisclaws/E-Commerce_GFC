@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { saveShippingAddress } from '../actions/cartActions';
 import CheckoutSteps from '../components/CheckoutSteps';
 
- export default function ShippingAddressScreen(props) {
+ export default function ShippingAddressScreen(props) {  
   const userSignin = useSelector(state => state.userSignin);
   const { userInfo } = userSignin;
   const cart = useSelector(state => state.cart);

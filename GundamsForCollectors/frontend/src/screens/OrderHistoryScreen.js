@@ -9,7 +9,7 @@ export default function OrderHistoryScreen(props) {
     const orderMineList = useSelector(state => state.orderMineList);
     const { loading, error, orders } = orderMineList;
     const dispatch = useDispatch();
-    useEffect(() => {
+    useEffect(() => {  
         dispatch(listOrderMine());
     }, [dispatch]);
     return (

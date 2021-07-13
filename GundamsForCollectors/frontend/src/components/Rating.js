@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function Rating(props) {
-    const {rating, numReviews} = props;
+    const {rating, numReviews} = props;  
     return (
         <div className="rating">
                     <span> <i className={ rating >=1?"fa fa-star": 

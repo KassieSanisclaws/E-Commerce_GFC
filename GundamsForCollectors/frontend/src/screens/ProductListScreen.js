@@ -10,7 +10,7 @@ export default function ProductListScreen(props) {
     const productList = useSelector(state => state.productList);
     const { loading, error, products } = productList;
     
-    const productCreate = useSelector(state => state.productCreate);
+    const productCreate = useSelector(state => state.productCreate);  
     const { loading: loadingCreate, error: errorCreate, success: successCreate, 
             product: createdProduct, } = productCreate;
     

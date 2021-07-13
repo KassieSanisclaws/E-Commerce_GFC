@@ -10,7 +10,7 @@ export default function OrderScreen(props) {
     const orderId = props.match.params.id;
   //const [sdkReady, setSdkReady] = useState(false); // paypay line maybe remove. //
     const orderDetails = useSelector((state) => state.orderDetails);
-    const { order, loading, error } = orderDetails;
+    const { order, loading, error } = orderDetails; 
     const dispatch = useDispatch();
     useEffect(() => {
   //const addPayPalScript = async () => {   // this line down paypal code maybe remove. //

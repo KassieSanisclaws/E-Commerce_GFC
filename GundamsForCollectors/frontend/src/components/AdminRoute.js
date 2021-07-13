@@ -13,7 +13,7 @@ export default function AdminRoute({ compopnent: Component, ...rest }) {
          <Component {...props}></Component>
            ) : (
         <Redirect to="/signin" />
-         )
+         )   
         }
         ></Route>
      );

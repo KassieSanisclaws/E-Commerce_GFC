@@ -5,5 +5,5 @@ export default function NewsScreen() {
         <div>
             <h1>News Screen</h1>
         </div>
-    )
+    )  
 }

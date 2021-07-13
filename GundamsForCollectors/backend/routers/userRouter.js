@@ -7,7 +7,7 @@ import { generateToken, isAuth } from '../utils.js';
 
 const userRouter = express.Router();
 
-userRouter.get(
+userRouter.get(     
       '/seed', 
     expressAsyncHandler(async(req, res) => {
      //await User.remove({});    // *removes seeded users and asigns new id values*

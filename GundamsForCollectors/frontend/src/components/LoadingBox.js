@@ -6,4 +6,4 @@ export default function LoadingBox() {
            <i className="fa fa-spiner fa-spin"></i> Loading...
         </div>
     );
-}
+}   

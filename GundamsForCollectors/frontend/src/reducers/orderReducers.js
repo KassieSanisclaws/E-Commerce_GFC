@@ -10,7 +10,7 @@ export const orderCreateReducer = (state = {}, action) => {
             return { loading: false, error: action.payload };
         case ORDER_CREATE_RESET:
             return {};
-        default: 
+        default:   
             return state;
     }
 };

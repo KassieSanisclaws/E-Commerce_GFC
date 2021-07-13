@@ -7,7 +7,7 @@ import MessageBox from '../components/MessageBox';
 
 export default function RegisterScreen(props) {
     const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
+    const [email, setEmail] = useState('');  
     const [password, setPassword] = useState('');
     const [confirmedPassword, setConfirmPassword] = useState('');
 

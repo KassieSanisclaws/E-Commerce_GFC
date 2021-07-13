@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Rating from './Rating';
 
-export default function Product(props){
+export default function Product(props){ 
     const { product } = props;
     return (
         <div key={product._id} className="card">
@@ -18,4 +18,4 @@ export default function Product(props){
                 </div>
               </div>
     );
-}
+}        

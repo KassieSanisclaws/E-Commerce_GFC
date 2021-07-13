@@ -8,7 +8,7 @@ const data = {
             price:165,
             countInStock: 10,
             brand:'Bandai',
-            rating:4.5,
+            rating:4.5,  
             numReviews:10,
             description:'to be updated',
         },

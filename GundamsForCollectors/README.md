@@ -10,7 +10,7 @@ Tools: - NodeJS
        - express
        - nodemon
        - ES7 react-snippet
-       - prettier
+       - prettier  
        - dotenv
        - jsonwebtoken
        - bcrypt

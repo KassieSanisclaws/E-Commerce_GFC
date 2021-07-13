@@ -7,7 +7,7 @@ import { productCreateReducer, productDeleteReducer, productDetailsReducer, prod
 import { userDetailsReducer, userRegisterReducer, userSigninReducer, userUpdateProfileReducer } from './reducers/userReducers';
 
 const initialState = {
-    userSignin: {
+    userSignin: {  
         userInfo: localStorage.getItem('userInfo')
         ? JSON.parse(localStorage.getItem('userInfo'))
         : null,

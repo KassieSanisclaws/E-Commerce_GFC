@@ -10,7 +10,7 @@ export default function CartScreen(props) {
           ? Number(props.location.search.split('=')[1])
           : 1;
        const cart = useSelector((state) => state.cart);
-       const { cartItems } = cart;
+       const { cartItems } = cart;  
        const dispatch = useDispatch();
           useEffect(() => {
             if (productId) {
